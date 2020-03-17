@@ -19,7 +19,7 @@ feature_row:
   - image_path: /assets/images/home-blog.jpeg
     alt: "blog"
     title: "Blog"
-    excerpt: "Edgy. Funny.  Challenge.  Help."
+    excerpt: "Edgy. Funny.  Reflect.  Help."
     url: "/year-archive/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
