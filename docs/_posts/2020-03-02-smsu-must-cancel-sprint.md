@@ -1,6 +1,6 @@
 ---
 title: "ScrumMaster Screw-up: We MUST cancel the Sprint"
-author: Billy Rick
+author: Jem
 exerpt: "Scrum Master Screw Ups"
 header:
   video:
