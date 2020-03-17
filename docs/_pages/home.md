@@ -3,33 +3,31 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
-  actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
+  overlay_image: /assets/images/unsplash-image-1.jpg
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.19.0">Latest release v4.19.0</a></small>
+  People.  Tech.  Leadership.  Transformation.<br />
+  We untangle difficult situations.<br />
+  <small><a href="/about-us/">Find out more</a></small>
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+  - image_path: /assets/images/home-who-are-we.jpg
+    alt: "who"
+    title: "Who are we?"
+    excerpt: "Meet us, and meet our mission"
+    url: "/about-us/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+  - image_path: /assets/images/home-blog.jpeg
+    alt: "blog"
+    title: "Blog"
+    excerpt: "Edgy. Funny.  Challenge.  Help."
+    url: "/year-archive/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+  - image_path: /assets/images/home-whats-next.jpg
+    alt: "whats next"
+    title: "Upcoming"
+    excerpt: "Upcoming events!"
+    url: "/whats-next/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
 ---

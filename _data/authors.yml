@@ -1,0 +1,45 @@
+# Authors
+
+Jem:
+  name        : "Jem D'jelal"
+  bio         : "Nomadic coach. Speaker. Part time teacher."
+  avatar      : "/assets/images/about/about-jem.jfif"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:jem@theuntanglers.com"
+    - label: "linkedin"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.linkedin.com/in/coachjem/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/Jdjelal"
+
+Terrence:
+  name        : "Terrence Joe"
+  bio         : "Coaching Teams and Individuals"
+  avatar      : "/assets/images/about/about-terrence.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:contact@terrencejoe.net"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/joeagile"
+
+Josh:
+  name        : "Josh D'jelal"
+  bio         : "Agile Coach & Trainer"
+  avatar      : "/assets/images/about/about-josh.jfif"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:cornelius@thewhip.com"
+    - label: "linkedin"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.linkedin.com/in/joshdjelal/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/JoshDjelal"
+
+      

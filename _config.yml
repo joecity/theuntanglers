@@ -19,7 +19,7 @@ locale                   : "en-GB"
 title                    : "The Untanglers"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Joe Blogs"
+name                     : "The Untanglers"
 description              : "Untangling one blocker at a time"
 url                      : http://theuntanglers.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -58,7 +58,7 @@ algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : # true (default), false
+  powered_by             : "Untangling complex situations" # true (default), false
 google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
@@ -145,6 +145,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _events
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -265,6 +266,14 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+  events:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -279,3 +288,10 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _events
+  - scope:
+      path: ""
+      type: events
+    values:
+      layout: single
+      share: true
