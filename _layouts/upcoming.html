@@ -1,0 +1,58 @@
+---
+layout: splash
+feature_row2:
+  - image_path: /assets/images/about/about-jem.jfif
+    alt: "Jem D'jelal"
+    title: "Jem D'jelal"
+    excerpt: 'High energy nutter - experienced personal and team coach'
+    url: "#test-link"
+---
+
+<br><br>
+
+<h1>Upcoming Events</h1>
+
+<br>
+{{ content }}
+<br>
+
+{% assign events = site.events %}
+{% for event in events %}
+
+  <div class="feature__wrapper">
+
+    <div class="feature__item--left">
+      <div class="archive__item">
+        {% if event.image_path %}
+          <div class="archive__item-teaser">
+            {% if event.permalink %}<a href="{{event.permalink}}">{% endif %}
+              <img src="{{ event.image_path | relative_url }}"
+                  alt="{% if event.alt %}{{ event.alt }}{% endif %}" height="180" width="360" >
+            {% if event.permalink %}</a>{% endif %}
+            {% if f.image_caption %}
+              <span class="archive__item-caption">{{ f.image_caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        <div class="archive__item-body">
+          {% if event.title %}
+            <h2 class="archive__item-title">{{ event.title }}</h2>
+          {% endif %}
+
+          {% if event.excerpt %}
+            <div class="archive__item-excerpt">
+              {{ event.excerpt | markdownify }}
+            </div>
+          {% endif %}
+
+          {% if f.url %}
+            <p><a href="{{ f.url | relative_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+{% endfor %}

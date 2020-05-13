@@ -27,7 +27,7 @@ feature_row:
     alt: "whats next"
     title: "Upcoming"
     excerpt: "Upcoming events!"
-    url: "/whats-next/"
+    url: "/events/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
 ---
