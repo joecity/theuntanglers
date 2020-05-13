@@ -1,6 +1,7 @@
 ---
 layout: splash
 permalink: /
+excerpt_logo: /assets/images/final.logo.small.png
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/unsplash-image-1.jpg

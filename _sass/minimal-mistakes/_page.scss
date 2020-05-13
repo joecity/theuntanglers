@@ -211,6 +211,19 @@ body {
         font-size: $type-size-1;
       }
     }
+
+    .hero-logo {
+      display: block;
+      float: right;
+      position: absolute;
+      right: 0;
+      top: 20px;
+      height: 200px;
+    }
+
+    .hero-logo img {
+      height: 100%;
+    }
   }
 }
 
@@ -218,6 +231,71 @@ body {
   width: 100%;
   height: auto;
   -ms-interpolation-mode: bicubic;
+}
+
+.custom-hero-wrapper {
+  @include clearfix();
+  margin-bottom: 2em;
+}
+
+.custom-hero-left {
+  position: relative;
+  margin-bottom: 2em;
+  font-size: 1.125em;
+
+
+  @include breakpoint($small) {
+    float: left;
+    margin-bottom: 0;
+    width: span(8 of 12);
+
+    &:nth-child(3n + 1) {
+      clear: both;
+      margin-left: 0;
+    }
+
+    &:nth-child(3n + 2) {
+      clear: none;
+      margin-left: gutter(of 12);
+    }
+
+    &:nth-child(3n + 3) {
+      clear: none;
+      margin-left: gutter(of 12);
+    }
+  }
+}
+.custom-hero-right {
+  position: relative;
+  margin-bottom: 2em;
+  font-size: 1.125em;
+  height: span(3 of 12);
+  
+  @include breakpoint($small) {
+    float: left;
+    margin-bottom: 0;
+    width: span(3 of 12);
+
+    &:nth-child(3n + 1) {
+      clear: both;
+      margin-left: 0;
+    }
+
+    &:nth-child(3n + 2) {
+      clear: none;
+      margin-left: gutter(of 12);
+    }
+
+    &:nth-child(3n + 3) {
+      clear: none;
+      margin-left: gutter(of 12);
+    }
+  }
+}
+
+.custom-hero-right img {
+  width: 100%;
+  height: 100%;
 }
 
 .page__hero-caption {
