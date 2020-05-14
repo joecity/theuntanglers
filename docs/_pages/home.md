@@ -7,9 +7,8 @@ header:
   overlay_color: "#000000"
 #  overlay_image: /assets/images/unsplash-image-1.jpg
 excerpt: >
-  Jem, Terrence, Josh.<br />
-  We go beyond book smart "Agile".<br />
-  To help you make sense of tricky situations at the Team and Organisational level.<br />
+  Welcome to our MVP.<br />
+  <small>We're working on something super slick & edgy. For now though, welcome to our home.</small>
 #  <small><a href="/about-us/">Find out more</a></small>
 feature_row:
 #  - image_path: /assets/images/home-who-are-we.jpg
@@ -22,14 +21,14 @@ feature_row:
   - image_path: /assets/images/home-blog.jpeg
     alt: "blog"
     title: "Blog"
-    excerpt: "Edgy. Funny.  Reflect.  Help."
+    excerpt: "Stories from the trenches"
     url: "/year-archive/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/home-whats-next.jpg
     alt: "whats next"
     title: "Upcoming"
-    excerpt: "Upcoming events!"
+    excerpt: "Join us at our upcoming events!"
     url: "/upcoming/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      

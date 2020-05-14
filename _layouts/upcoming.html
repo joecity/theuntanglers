@@ -36,11 +36,13 @@ feature_row2:
         {% endif %}
 
         <div class="archive__item-body">
-          {% if event.permalink %}<a href="{{event.permalink}}">{% endif %}
+          {% if event.permalink %}
+            <a href="{{event.permalink}}">{{event.Date}}</a>
+          {% endif %}
+
           {% if event.title %}
             <h2 class="archive__item-title">{{ event.title }}</h2>
           {% endif %}
-          {% if event.permalink %}</a>{% endif %}
 
           {% if event.excerpt %}
             <div class="archive__item-excerpt">
