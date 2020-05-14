@@ -2,13 +2,18 @@
 title: "About Us"
 layout: splash
 permalink: /about-us/
+excerpt_logo: /assets/images/final.logo.small.png
 date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/unsplash-image-1.jpg
   caption: ""
-excerpt: "Human coaching.  Leadership.  Tech.  Product.  Years of experience from the trenches."
+excerpt: >
+  Here are the Untanglers.<br />
+  Jem, Terrence, Josh.<br />
+  We go beyond book smart "Agile".<br />
+  To help you make sense of tricky situations at the Team and Organisation level.<br />
 feature_row:
   - image_path: /assets/images/about/about-jem.jfif
     alt: "Jem D'jelal"

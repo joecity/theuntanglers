@@ -2,12 +2,14 @@
 layout: splash
 permalink: /
 excerpt_logo: /assets/images/final.logo.small.png
+title: Here are the Untanglers.
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/unsplash-image-1.jpg
 excerpt: >
-  People.  Tech.  Leadership.  Transformation.<br />
-  We untangle difficult situations.<br />
+  Jem, Terrence, Josh.<br />
+  We go beyond book smart "Agile".<br />
+  To help you make sense of tricky situations at the Team and Organisation level.<br />
   <small><a href="/about-us/">Find out more</a></small>
 feature_row:
   - image_path: /assets/images/home-who-are-we.jpg
@@ -28,7 +30,7 @@ feature_row:
     alt: "whats next"
     title: "Upcoming"
     excerpt: "Upcoming events!"
-    url: "/events/"
+    url: "/upcoming/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
 ---
