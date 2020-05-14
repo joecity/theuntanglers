@@ -13,7 +13,7 @@ excerpt: >
   Here are the Untanglers.<br />
   Jem, Terrence, Josh.<br />
   We go beyond book smart "Agile".<br />
-  To help you make sense of tricky situations at the Team and Organisation level.<br />
+  To help you make sense of tricky situations at the Team and Organisational level.<br />
 feature_row:
   - image_path: /assets/images/about/about-jem.jfif
     alt: "Jem D'jelal"

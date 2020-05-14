@@ -2,8 +2,8 @@
 title: "Why Every Scrummaster needs to know these 4 Techie Concepts"
 Date: 2020, TBC
 permalink: /events/2020-05-12-every-sm-needs-4-techie-concepts/
-header:
-  image: /assets/images/events/tech.concepts.sml.jpg
+#header:
+#  image: /assets/images/events/tech.concepts.sml.jpg
 excerpt: "Do Scrum Masters need to be techy?  We go through 4 concepts that are essential for good scrum masters!"
 last_modified_at: 2020-05-12T21:36:11-04:00
 toc: true

@@ -4,8 +4,8 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   #- title: "About"
   #  url: https://mmistakes.github.io/minimal-mistakes/about/
-  - title: "Who are we"
-    url: /about-us/
+  #- title: "Who are we"
+  #  url: /about-us/
   - title: "Blog"
     url: /year-archive/    
   - title: "Upcoming"
