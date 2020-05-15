@@ -2,25 +2,24 @@
 layout: splash
 permalink: /
 excerpt_logo: /assets/images/final.logo.small.png
-title: Here are the Untanglers.
+title: Experience Counts.
 header:
-  overlay_color: "#000000"
+  overlay_color: "#FFFFFF"
 #  overlay_image: /assets/images/unsplash-image-1.jpg
 excerpt: >
-  Welcome to our MVP.<br />
-  <small>We're working on something super slick & edgy. For now though, welcome to our home.</small>
+  And that’s why we got together. A small group of coaches who bring hands on engineering, product & change experience.
 #  <small><a href="/about-us/">Find out more</a></small>
 feature_row:
-#  - image_path: /assets/images/home-who-are-we.jpg
-#    alt: "who"
-#    title: "Who are we?"
-#    excerpt: "Meet us, and meet our mission"
-#    url: "/about-us/"
-#    btn_class: "btn--primary"
-#    btn_label: "Learn more"
+  - image_path: /assets/images/home-who-are-we.jpg
+    alt: "who"
+    title: "Who are we?"
+    excerpt: "Get to know us"
+    url: "/about-us/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
   - image_path: /assets/images/home-blog.jpeg
-    alt: "blog"
-    title: "Blog"
+    alt: "blog / vlog"
+    title: "Blog / VLog"
     excerpt: "Stories from the trenches"
     url: "/year-archive/"
     btn_class: "btn--primary"

@@ -1,6 +1,7 @@
 ---
 title: "Why Every Scrummaster needs to know these 4 Techie Concepts"
-Date: 2020, TBC
+Date: 2020-07-30
+Date-Display: "TBC (2020)"
 permalink: /events/2020-05-12-every-sm-needs-4-techie-concepts/
 #header:
 #  image: /assets/images/events/tech.concepts.sml.jpg
